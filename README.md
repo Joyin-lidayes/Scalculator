@@ -30,31 +30,42 @@
 
 #### I/O口功能规范
 
-MCU I/O定义图
+##### MCU I/O定义图
 
 <img src="https://cdn.nlark.com/yuque/0/2021/png/22945577/1637126760921-fe6172fb-8eed-4c92-8f25-0989af76c053.png?date=1637126915043" alt="avatar" style="zoom:80%;" />
 
-KEY （矩阵键盘）
+##### KEY （矩阵键盘）
 
 <img src="https://cdn.nlark.com/yuque/0/2021/png/22945577/1637127323521-7f09ea8b-c06b-442c-b27c-24ba9036f4df.png" alt="avatar" style="zoom:50%;" />
 
-KEY（独立键盘）
+> 从S1至S16按键功能依次为：
+>
+> * 1，2，3，+，4，5，6，—，7，8，9，*，.  （小数点） ，0，=  ，/（除号）
+
+##### KEY（独立键盘）
 
 <img src="https://cdn.nlark.com/yuque/0/2021/png/22945577/1637127336137-0258e18c-db81-40a1-b9dc-3a2b4bd3ba36.png" alt="avatar" style="zoom: 67%;" />
 
-KEY（复位键）
+> 从K1至K4按键功能依次为：
+>
+> * （ （左括号）
+> *   ）（右括号）
+> *   AC（清屏）
+> *   M（保存数据）
+
+##### KEY（复位键）
 
 ![avatar](https://cdn.nlark.com/yuque/0/2021/png/22945577/1637127374410-ac8edd7d-b12c-442b-9fe0-e739174aa567.png)
 
-LCD1602
+##### LCD1602
 
 <img src="https://cdn.nlark.com/yuque/0/2021/png/22945577/1637127354845-241a09eb-c60d-40c6-adef-8475327f06dd.png" alt="avatar" style="zoom:50%;" />
 
-DS18B20
+##### DS18B20
 
 ![avatar](https://cdn.nlark.com/yuque/0/2021/png/22945577/1637127385477-e1332dd7-1092-47ed-8821-cc7d200f6c86.png)
 
-晶振
+##### 晶振
 
 ![avatar](https://cdn.nlark.com/yuque/0/2021/png/22945577/1637127400036-88f45406-766a-4065-928e-ef284064e218.png)
 
